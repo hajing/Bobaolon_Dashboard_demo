@@ -1,0 +1,71 @@
+<html>
+
+<head>
+    <title>视频监控</title>
+    <meta charset="UTF-8">
+    <style>
+        body {
+            overflow: hidden;
+        }
+
+        .video_panel {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .video_frame {
+            border: 1px #000 solid;
+            width: 45vw;
+            height: 18vh;
+            margin: 4px 0px;
+        }
+
+        .video_row {
+            margin: 0;
+            padding: 0;
+            border: none;
+        }
+
+        .video_hidden {
+            display: none;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .plugin {
+            width: 100% !important;
+            height: 100% !important;
+        }
+
+        .play-window {
+            border: 0 !important;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="video_panel">
+        <div id="video_0" class="video_frame"></div>
+        <div id="video_1" class="video_frame"></div>
+        <div id="video_2" class="video_frame"></div>
+        <div id="video_3" class="video_frame"></div>
+        <div id="video_4" class="video_frame"></div>
+        <div id="video_5" class="video_frame"></div>
+        <div id="video_6" class="video_frame"></div>
+        <div id="video_7" class="video_frame"></div>
+        <div id="video_8" class="video_frame"></div>
+        <div id="video_9" class="video_frame"></div>
+    </div>
+</body>
+<script type="text/javascript" src="scripts/jquery-1.7.1.js"></script>
+<script type="text/javascript" src="scripts/codebase/webVideoCtrl.js"></script>
+<script type="text/javascript" src="scripts/utils.js"></script>
+<script type="text/javascript" src="scripts/video.js"></script>
+
+</html>
